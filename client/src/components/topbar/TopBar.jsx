@@ -12,10 +12,9 @@ export default function TopBar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <i className="topIcon fab fa-facebook-square"></i>
-        <i className="topIcon fab fa-twitter-square"></i>
-        <i className="topIcon fab fa-pinterest-square"></i>
-        <i className="topIcon fab fa-instagram-square"></i>
+        <Link className="link" to="/">
+          <h1>Blog</h1>
+        </Link>
       </div>
       <div className="topCenter">
         <ul className="topList">
@@ -35,7 +34,7 @@ export default function TopBar() {
             </Link>
           </li>
           <li className="topListItem">
-            <Link className="link" to="/">
+            <Link className="link" to="/write">
               WRITE
             </Link>
           </li>
@@ -46,7 +45,7 @@ export default function TopBar() {
       </div>
       <div className="topRight">
         {user ? (
-          <div style={{display: "flex", alignItems: 'center', gap: '0 10px'}}>
+          <div style={{ display: "flex", alignItems: "center", gap: "0 10px" }}>
             <p>{user.username}</p>
             <Link to="/">
               <img className="topImg" src={user.profilePic} alt="" />
