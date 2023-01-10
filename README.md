@@ -18,5 +18,7 @@
 #### + User update and delete post of me 
 
 ### FE: react -v  "^17.0.2"
-### BE: nodemon  -v  "^2.0.7"
+### BE: 
+#### + nodemon  -v  "^2.0.7"
+#### + node  -v  "^16.14.0"
 
