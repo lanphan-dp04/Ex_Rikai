@@ -13,3 +13,10 @@
 ### - Login: 
 #### + Login is authorized user and admin
 ### - Logout
+### - CRUD Post: 
+#### + Admin : Update and delete post of user
+#### + User update and delete post of me 
+
+### FE: react -v  "^17.0.2"
+### BE: nodemon  -v  "^2.0.7"
+
